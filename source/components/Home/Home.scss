@@ -1,0 +1,40 @@
+.Home {
+    .header{
+        color: skyblue;
+        text-align: center;
+    }
+    // color: skyblue;
+    // text-align: center;
+    position: absolute;
+    // top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+
+}
+
+
+.Table {
+    margin-top: 20px;
+    .TableName{
+        color:#e8634c !important;
+        font-size:17px;
+        font-weight:bold;
+    }
+    .change{
+        background:rgba(204, 255, 255,0.2)
+    }
+
+    .title{
+        font-weight:bold;
+    }
+    .special{
+        color:#e8634c !important;
+    }
+    .cell{
+        padding:10px !important;
+    }
+    .inputchange{
+         padding:0px !important;
+    }
+}
